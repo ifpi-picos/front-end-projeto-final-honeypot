@@ -10,3 +10,27 @@
     font-family: PTSans-Regular;
 }
 
+body{
+    background:#F5F5F5;
+}
+.login{
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+    box-shadow: 2px 5px 12px 1px #888888;
+    margin-top: 4.5%;
+}
+.logo img{
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+h2{
+   font-family:  Dancing;
+   text-align: center;
+}
+input{
+    border: 1px solid #ffc107;
+    border-radius: 8px;
+}
