@@ -1,0 +1,54 @@
+/* NAV BAR*/
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #ffc107;
+}
+/* NAV BAR*/
+
+/* DIVISÓRIA */
+hr{
+    width: 90%;
+    align-items: center;
+    background-color: #ffc107;
+}
+
+/* CONTEÚDO DE CADASTRO*/
+.left{
+    width: 18%;
+    display: inline-block;
+    background: aqua;
+
+}
+
+.right{
+    width: 18%;
+    display: inline-block;
+    background: blue;
+
+}
+
+.center{
+    width: 60%;
+    display: inline-block;
+    background: chocolate;
+}
+
+nav{
+    overflow: hidden;    
+}
