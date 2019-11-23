@@ -8,29 +8,57 @@
 }
 *{
     font-family: PTSans-Regular;
+    border-radius:6px;
+    font-size: 12pt;
 }
-
 body{
-    background:#F5F5F5;
+    background:#fdf5e6;
 }
 .login{
-    height: 500px;
-    width: 500px;
+    height: 50%;
+    width: 40%;
     margin: 0 auto;
-    box-shadow: 2px 5px 12px 1px #888888;
     margin-top: 4.5%;
 }
 .logo img{
     width: 30%;
     height: 30%;
     margin-left: 35%;
-    margin-top: 3%;
+    margin-top:3%;
 }
 h2{
-   font-family:  Dancing;
+   font-family:Dancing;
    text-align: center;
+   font-size: 25pt;
+
 }
-input{
+form input{
+    margin-top: 2%;
     border: 1px solid #ffc107;
-    border-radius: 8px;
+    width: 50%;
+    padding:1em;
+    margin-left: 25%;
+    outline: none;
+   
+}
+form input[type="password"]{
+    margin-top:15px;
+}
+ #cad,#log{
+    margin-top:4%;
+	width: 100px;
+	height: 40px;
+    display: inline;
+    margin-left:25%;
+    background: #6495ED;
+    cursor: pointer;
+    font-weight: bold;
+}
+#log{
+    background:#66CDAA;
+    margin-left:18%;
+}
+a{
+    text-decoration: none;
+    color:#363636;
 }
