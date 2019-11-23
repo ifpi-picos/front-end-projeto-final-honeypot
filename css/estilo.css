@@ -8,5 +8,57 @@
 }
 *{
     font-family: PTSans-Regular;
+    border-radius:6px;
+    font-size: 12pt;
 }
+body{
+    background:#fdf5e6;
+}
+.login{
+    height: 50%;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 4.5%;
+}
+.logo img{
+    width: 30%;
+    height: 30%;
+    margin-left: 35%;
+    margin-top:3%;
+}
+h2{
+   font-family:Dancing;
+   text-align: center;
+   font-size: 25pt;
 
+}
+form input{
+    margin-top: 2%;
+    border: 1px solid #ffc107;
+    width: 50%;
+    padding:1em;
+    margin-left: 25%;
+    outline: none;
+   
+}
+form input[type="password"]{
+    margin-top:15px;
+}
+ #cad,#log{
+    margin-top:4%;
+	width: 100px;
+	height: 40px;
+    display: inline;
+    margin-left:25%;
+    background: #6495ED;
+    cursor: pointer;
+    font-weight: bold;
+}
+#log{
+    background:#66CDAA;
+    margin-left:18%;
+}
+a{
+    text-decoration: none;
+    color:#363636;
+}
