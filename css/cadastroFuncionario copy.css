@@ -1,0 +1,16 @@
+@font-face{
+    font-family: PTSans-Regular;
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+@font-face{
+    font-family: Dancing;
+    src: url(../fonts/Dancing.ttf)
+}
+*{
+    font-family: PTSans-Regular;
+    border-radius:6px;
+    font-size: 12pt;
+}
+body{
+    background:red;
+}
