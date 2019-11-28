@@ -8,18 +8,16 @@
 }
 *{
     font-family: PTSans-Regular;
-    border-radius:6px;
+    border-radius:5px;
     font-size: 12pt;
-}
-body{
-    background:#fdf5e6;
+     height: auto;
 }
 /* DIV */
 .login{
-    height: 50%;
-    width: 40%;
+    height:688px;
+    width: 38%;
     margin: 0 auto;
-    margin-top: 4.5%;
+    box-shadow: 2px 5px 12px 1px #888888;
 }
 .logo img{
     width: 30%;
@@ -31,35 +29,50 @@ h2{
    font-family:Dancing;
    text-align: center;
    font-size: 25pt;
+}
+.logomarca{
+    width: 60%;
+   
+}
+.logomarca img{
+    max-width: 100%;
+    height: 100%;
+}
+.flex{
+    display: flex;
+}
 
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.form{
+    width: 100%;
 }
 form input{
     margin-top: 2%;
     border: 1px solid #ffc107;
-    width: 50%;
-    padding:1em;
-    margin-left: 25%;
-    outline: none;
-   
+    width: 85%;
+    padding:0.5em;
+    margin-left: 4.8%;
 }
-form input[type="password"]{
-    margin-top:15px;
-}
- .cad,.log{
-    margin-top:4%;
-	width: 100px;
-	height: 40px;
-    display: inline;
-    margin-left:25%;
-    background: #6495ED;
-    cursor: pointer;
-    font-weight: bold;
-}
-.log{
-    background:#66CDAA;
-    margin-left:18%;
-}
-a{
-    text-decoration: none;
-    color:#363636;
-}
+
+  .entrar,.cadastrar{
+    border: 0;
+    padding: 8px;
+    width: 40%;
+    height: 50px;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 5%;
+    background:#ffc107;
+ }
+ .link{
+     text-decoration: none;
+     color: #7D7D7D;
+ }
+
+ 
+  
