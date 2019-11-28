@@ -1,0 +1,32 @@
+@font-face{
+    font-family: PTSans-Regular;
+    src: url(../fonts/PTSans-Regular.ttf);
+}
+*{
+    font-family: PTSans-Regular;
+    border-radius:6px;
+    font-size: 12pt;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #ffc107;
+}
+nav{
+    overflow: hidden;    
+}
