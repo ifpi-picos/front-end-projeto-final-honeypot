@@ -14,6 +14,7 @@
 body{
     background:#fdf5e6;
 }
+/* DIV */
 .login{
     height: 50%;
     width: 40%;
@@ -44,7 +45,7 @@ form input{
 form input[type="password"]{
     margin-top:15px;
 }
- #cad,#log{
+ .cad,.log{
     margin-top:4%;
 	width: 100px;
 	height: 40px;
@@ -54,7 +55,7 @@ form input[type="password"]{
     cursor: pointer;
     font-weight: bold;
 }
-#log{
+.log{
     background:#66CDAA;
     margin-left:18%;
 }
