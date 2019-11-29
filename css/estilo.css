@@ -63,24 +63,42 @@ h2{
 form input{
     margin-top: 2%;
     border: 1px solid #ffc107;
-    width: 85%;
+    width: 81%;
     padding:0.8em;
     margin-left: 4.8%;
     border-radius: 5px;
+}
+.entrar{
+    margin-left: 26px;
+}
+
+.cadastrar{
+    margin-left: 14px;
 }
 
   .entrar,.cadastrar{
     border: 0;
     padding: 8px;
-    width: 40%;
+    width: 225px;
     height: 50px;
     display: inline-block;
-    margin: 10px;
     cursor: pointer;
     border-radius: 5px;
-    margin-left: 5%;
+    margin-top: 10px;
     background:#ffc107;
+    font-weight: bold;
  }
+
+ .entrar:hover{
+    background: #ff9900;
+    color:white;
+ }    
+
+ .cadastrar:hover{
+    background: #ff9900;
+    color:white;
+ }    
+
  .link{
      text-decoration: none;
      color: #ffffff;
