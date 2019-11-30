@@ -84,7 +84,7 @@ form input{
     display: inline-block;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 5px;
     background:#ffc107;
     font-weight: bold;
  }
@@ -104,6 +104,9 @@ form input{
      color: #ffffff;
 
  }
-
+p .esqueceu{
+    margin-left: 360px;
+    color: #ff9900;
+    margin-top: 5px;
+}
  
-  
