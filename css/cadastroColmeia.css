@@ -2,72 +2,55 @@
     font-family: PTSans-Regular;
     src: url(../fonts/PTSans-Regular.ttf);
 }
+@font-face{
+    font-family: Dancing;
+    src: url(../fonts/Dancing.ttf)
+}
 *{
     font-family: PTSans-Regular;
     font-size: 12pt;
-    border-radius: 4px;
     margin: 0 auto;
 }
 
-/* NAV BAR*/
- nav .log img{
-  height: 5px;
-  width: 5px;
+.logomarca{
+    width:38%;
+    border: 1px solid #000000;
+    height: 70px;
 }
-ul{
-    list-style-type: none;
-    border-radius:6px;
-    overflow: hidden;
+.logomarca h2{
+    margin-left: 90px;
+    margin-top: -50px;
+    font-family:Dancing;
+    font-size: 25pt;
+    color: #ff9900;
 }
-li{
-    float: right;
+.logo{
+    width: 64px;
+    height: 68px;
 }
-li a{
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 10px 12px;
-    text-decoration: none;
-}
-li a:hover{
-    background-color:#ffc107;
-}
-ul li{
-    border-left:1px solid #ffc107;
-}
+
 nav{
-    overflow: hidden;  
-    background:#FFDEAD;
+    height:70px;
+    border:1px solid#ffc107;
+    width: 100%;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
 }
-
-/* NAV BAR*/
-hr{
-    width: auto;
-    margin: 0 auto;
-    border: 0;
-    height: 0;
-    border-top: 1px solid #ffc107;   
-    overflow: visible;
+.nav_links{
+    width:58%;
+    height: 68px;
+    border: 1px solid #000000;
 }
-h1{
+.nav_links li{
+    display: inline-block;
+    padding: 0px 10px;
+    height: 50px;
+    border: 1px solid salmon;
+    width: 11%;
     text-align: center;
-    font-size:20pt;
-    color: #ffc107;
-    font-weight: bold;
-    font-family: Dancing;
-    margin-top: 2%;
+    margin-top: 8px;
 }
- input{
-    width: 30%;
-    padding: 10px 18px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: 1px solid #ffc107;  
-    margin-left: 12%;
-}
-.label{
-    width: 30%;
-    padding: 10px 18px;
-    margin: 8px 0;
-    margin-left: 12%;
+.nav_links  a{
+    margin-top: 10px;
 }
