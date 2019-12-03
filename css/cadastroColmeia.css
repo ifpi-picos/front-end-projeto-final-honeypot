@@ -70,20 +70,67 @@ nav{
     flex-wrap: wrap;
 }
 .cadColemeia{
-    margin-top:1%;
+    margin-top:2%;
     font-size: 18pt;
     font-weight: bold;
     color: #ff9900;
     text-align: center;
 }
 .informacoes{
-    box-shadow: 2px 5px 12px 1px #888888;
-    background: #ffffff;
     height: 300px;
     width: 90%;
     margin-top: 2%;
     
 }
-.endereco{
-    margin-left: 10px;
+.dados{
+    margin-left:4em;
+    margin-top: 2%;
+    color: #795548;
+    font-size: 20pt;
+    font-weight: bold;
 }
+.dados input{
+    padding: 0.6em;
+    border: 1px solid #ffc107;
+    color: #878787;
+    border-radius: 5px;
+    width: 80%;
+}
+.informacoesabelhas{
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    box-shadow:  2px 5px 12px 1px #888888;
+    height: 300px;
+  
+}
+.posturaDosOvos{
+    margin-top: 2px;
+    margin-right: 6px;
+    width: 40%;
+    height: 298px;
+    border:1px solid #000000;
+    color: #795548;
+    font-size: 20pt;
+    font-weight: bold;
+}
+
+.abelhasRainhas{
+    margin-top: 2px;
+    width: 40%;
+    height: 298px;
+    border:1px solid #000000
+}
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  } 
+  input[type="checkbox"] {
+    margin: .7rem;
+    height: 1.2em;
+    width: 1.5em;
+    
+    }
