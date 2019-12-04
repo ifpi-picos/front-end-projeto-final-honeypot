@@ -36,6 +36,7 @@ h2{
    font-family:Dancing;
    text-align: center;
    font-size: 25pt;
+   color: #606060;
 }
 .logomarca{
     background-image: url('../img/favo.jpg');
@@ -84,7 +85,7 @@ form input{
     display: inline-block;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 5px;
+    margin-top: 15px;
     background:#ffc107;
     font-weight: bold;
  }

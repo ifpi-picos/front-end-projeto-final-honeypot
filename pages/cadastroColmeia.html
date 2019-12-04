@@ -12,62 +12,68 @@
 </head>
 
 <body>
-    <!-- menu-->
-    <nav>
-        <div class="logomarca">
-            <img class="logo " src="../img/honeyPot.png" alt="logo">
-            <h2>Honey Pot</h2>
+    <header class="menu">
+        <div class="contanier">
+            <div class="logo">
+                <img src="../img/honeyPot.png" alt="logo" class="img_logo">
+                <h1 class="title">Honey Pot</h1>
+            </div>
+            <nav class="menu_top">
+                <ul>
+                    <li><a href="">Colmeias</a></li>
+                    <li><a href="">Coletas</a></li>
+                    <li><a href="">Funcionários</a></li>
+                    <li><a href="">Cadastro</a></li>
+                </ul>
+            </nav>
         </div>
-        <ul class="nav_links">
-            <li><a href="cadastroColmeia.html">Colmeias</a></li>
-            <li><a href="cadastroColetas.html">Coletas</a></li>
-            <li><a href="">Funcionarios</a></li>
-            <li><a href="">Cadastro</a></li>
-        </ul>
-    </nav>
-    <!--Div Cadastro Colmeia-->
-    <div class="cadastroColmeia">
-        <h2 class="cadColemeia">Cadastrar Colmeia</h2>
-        <div class="informacoes">
-            <div class="dados">
-                <label>Endereço atual do Apiário:</label>
-                <input type="text" class="endereco" placeholder="Digite o endereço do Apiário">
-            </div>
-            <div class="dados">
-                <label for="">Responsavel Pela Colmeia :</label>
-                <input type="text" name="" class="responsavel" placeholder="Nome do responsável">
-            </div>
-            <div class="dados">
-                <label for="">Data Cadastro da Colemia:</label>
-                <input type="date" name="" class="responsavel" placeholder="Data de cadastramento da Colmeia">
-            </div>
-        </div>
-        <div class="informacoesabelhas">
-            <div class="posturaDosOvos">
-                <p>Postura dos Ovos:</p>
-                <form action="" method="post" name="ovos">
+
+    </header>
+
+    <main>
+        <div class="contanier">
+            <aside class="principal">
+                <h2>Cadastrar Colmeia</h2>
+                <form action="" method="post" class="cad_colmeia">
+                    <label for="fname">Endereço do Apiário</label>
+                    <input type="text" id="fname" name="firstname">
+
+                    <label for="fname">Responsavel pelo cadastro</label>
+                    <input type="text" id="fname" name="firstname">
+
+                    <!--<label for="country">Responsavel Pelo Cadastro</label>
+                    <select id="country" name="country">
+                        <option value="australia">Francisco José de Sousa</option>
+                        <option value="canada">Maria da Luz de Jesus Sá</option>
+                        <option value="usa">Lourival Antonio de Sá</option>
+                    </select>--->
+                    <label for="lname">Data de cadastro</label>
+                    <input type="date" id="lname" name="lastname">
+
+                    <h3>Postura dos Ovos</h3>
                     <p>
-                        <input type="checkbox" class="checkbox">
+                        <input type="checkbox" class="boa">
                         <label for="">Boa</label>
                     </p>
+
                     <p>
-                        <input type="checkbox" class="checkbox">
+                        <input type="checkbox" class="Fraca">
                         <label for="">Fraca</label>
                     </p>
+
                     <p>
-                        <input type="checkbox" class="checkbox">
-                        <label for="">Irregular</label>
+                        <input type="checkbox" class="Fraca">
+                        <label for="">Regular</label>
                     </p>
                 </form>
 
-            </div>
-            <div class="abelhasRainhas">
-
-            </div>
-
+            </aside>
         </div>
 
-    </div>
+    </main>
+    <!-- menu-->
+
+    <!---Menu finalizado-->
 </body>
 
 </html>
