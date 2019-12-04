@@ -1,3 +1,9 @@
+*{
+    font-family: PTSans-Regular;
+    font-size: 100%;
+    box-sizing: border-box;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -9,10 +15,6 @@ body{
 @font-face{
     font-family: Dancing;
     src: url(../fonts/Dancing.ttf)
-}
-*{
-    font-family: PTSans-Regular;
-    font-size: 100%;
 }
 .honey-pot {
     flex-direction: row;
@@ -26,6 +28,8 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 10px; 
+    width: 40%;
 }
 .logo {
     display: flex;
@@ -64,54 +68,55 @@ h2{
 form input{
     margin-top: 2%;
     border: 1px solid #ffc107;
-    width: 81%;
+    width: 100%;
     padding:0.8em;
-    margin-left: 4.8%;
     border-radius: 5px;
 }
-.entrar{
-    margin-left: 26px;
+
+
+.login-buttons{
+    display: flex;
+    justify-content: space-between;
 }
 
-.cadastrar{
-    margin-left: 14px;
-}
-<<<<<<< HEAD
-a{
-    text-decoration: none;
-    color:#363636;
-}
-
-=======
-
-  .entrar,.cadastrar{
+.entrar,.cadastrar{
     border: 0;
     padding: 8px;
-    width: 225px;
+    width: 45%;
     height: 50px;
-    display: inline-block;
     cursor: pointer;
     border-radius: 5px;
     margin-top: 15px;
     background:#ffc107;
     font-weight: bold;
- }
-
- .entrar:hover{
+}
+.entrar{
+    background:#DCE775;
+}
+.entrar:hover{
     background: #ff9900;
-    color:white;
- }    
+    color:#606060;
+}    
 
- .cadastrar:hover{
+.cadastrar:hover{
     background: #ff9900;
-    color:white;
- }    
+    color:#606060;
+}    
 
- .link{
-     text-decoration: none;
-     color: #ffffff;
+.link{
+    text-decoration: none;
+    color: #606060;
 
- }
+}
 
+
+@media(max-width:745px){
+    .honey-pot {
+        flex-direction: column;
+    }    
+    .login, .logomarca{
+        width: 100%;
+    }
+}
  
->>>>>>> a02014f01c8fcad1e732b19e7ac3903f69d3f16a
+

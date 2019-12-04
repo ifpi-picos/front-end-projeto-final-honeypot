@@ -57,7 +57,7 @@
 /* menu finalizado*/
 
 /* Main Contanier*/
-main .contanier{
+main{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
