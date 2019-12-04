@@ -4,27 +4,34 @@
 }
 *{
     font-family: PTSans-Regular;
+    border-radius:6px;
     font-size: 12pt;
-    border-radius: 4px;
 }
 
-/* NAV BAR*/
- nav .log img{
-  height: 5px;
-  width: 5px;
-}
 ul{
     list-style-type: none;
-    border-radius:6px;
+    margin: 0;
+    padding: 0;
     overflow: hidden;
 }
 li{
-    float: right;
+    float: left;
 }
 li a{
     display: block;
     color: black;
     text-align: center;
+<<<<<<< HEAD
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #ffc107;
+}
+nav{
+    overflow: hidden;    
+}
+=======
     padding: 10px 12px;
     text-decoration: none;
 }
@@ -48,3 +55,4 @@ hr{
     border-top: 1px solid #ffc107;   
     overflow: visible;
 }
+>>>>>>> a02014f01c8fcad1e732b19e7ac3903f69d3f16a

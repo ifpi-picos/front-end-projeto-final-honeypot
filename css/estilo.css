@@ -76,6 +76,13 @@ form input{
 .cadastrar{
     margin-left: 14px;
 }
+<<<<<<< HEAD
+a{
+    text-decoration: none;
+    color:#363636;
+}
+
+=======
 
   .entrar,.cadastrar{
     border: 0;
@@ -107,3 +114,4 @@ form input{
  }
 
  
+>>>>>>> a02014f01c8fcad1e732b19e7ac3903f69d3f16a
