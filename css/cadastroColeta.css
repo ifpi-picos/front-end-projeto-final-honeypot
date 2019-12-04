@@ -11,6 +11,7 @@
     font-size: 12pt;
     margin: 0 auto;
 }
+
 .logomarca{
     width:58%;
     height: 70px;
@@ -63,3 +64,22 @@ nav{
 .nav_links li:hover {
     background-color: #ff9900;
   }
+
+.side{
+    width: 10%;
+    display: inline-block;
+}
+
+.extracao{
+    display: inline-block;
+    width: 35%;
+}
+
+.content{
+    margin-top: 50px;
+}
+
+.multiselect{
+    width: 30%;
+
+}
