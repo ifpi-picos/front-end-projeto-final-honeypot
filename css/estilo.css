@@ -90,8 +90,10 @@ form input{
     background:#ffc107;
     font-weight: bold;
 }
-.entrar{
-    background:#DCE775;
+.cadastrar{
+    background:#fafafa !important;
+    color: #ffc107 !important;
+    border:1px solid #ffc107;
 }
 .entrar:hover{
     background: #ff9900;

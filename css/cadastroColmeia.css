@@ -51,13 +51,11 @@
     text-decoration: none;
     color: #606060;
 }
-.menu_top li:hover{
-    background:#FBC02D;
-}
-/* menu finalizado*/
-
-/* Main Contanier*/
-main{
+.nav_links li:hover {
+    background-color: #ff9900;
+  }
+  
+.cadastroColmeia{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -113,5 +111,3 @@ main{
 
   }
   
-
- 
