@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 @font-face{
     font-family: PTSans-Regular;
     src: url(../fonts/PTSans-Regular.ttf);
@@ -8,58 +12,105 @@
 }
 *{
     font-family: PTSans-Regular;
-    border-radius:6px;
-    font-size: 12pt;
+    font-size: 100%;
 }
-body{
-    background:#fdf5e6;
+.honey-pot {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
 }
+/* DIV */
 .login{
-    height: 50%;
-    width: 40%;
-    margin: 0 auto;
-    margin-top: 4.5%;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.logo img{
-    width: 30%;
-    height: 30%;
-    margin-left: 35%;
-    margin-top:3%;
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 h2{
    font-family:Dancing;
    text-align: center;
    font-size: 25pt;
+}
+.logomarca{
+    background-image: url('../img/favo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 100%;
+}
+.logomarca img{
+    width: 100%;
+    align-items: center;
+    margin: 5% 0 0 2%;
+}
+.flex{
+    display: flex;
+}
 
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+.form{
+    width: 100%;
 }
 form input{
     margin-top: 2%;
     border: 1px solid #ffc107;
-    width: 50%;
-    padding:1em;
-    margin-left: 25%;
-    outline: none;
-   
+    width: 81%;
+    padding:0.8em;
+    margin-left: 4.8%;
+    border-radius: 5px;
 }
-form input[type="password"]{
-    margin-top:15px;
+.entrar{
+    margin-left: 26px;
 }
- #cad,#log{
-    margin-top:4%;
-	width: 100px;
-	height: 40px;
-    display: inline;
-    margin-left:25%;
-    background: #6495ED;
-    cursor: pointer;
-    font-weight: bold;
+
+.cadastrar{
+    margin-left: 14px;
 }
-#log{
-    background:#66CDAA;
-    margin-left:18%;
-}
+<<<<<<< HEAD
 a{
     text-decoration: none;
     color:#363636;
 }
 
+=======
+
+  .entrar,.cadastrar{
+    border: 0;
+    padding: 8px;
+    width: 225px;
+    height: 50px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 5px;
+    background:#ffc107;
+    font-weight: bold;
+ }
+
+ .entrar:hover{
+    background: #ff9900;
+    color:white;
+ }    
+
+ .cadastrar:hover{
+    background: #ff9900;
+    color:white;
+ }    
+
+ .link{
+     text-decoration: none;
+     color: #ffffff;
+
+ }
+
+ 
+>>>>>>> a02014f01c8fcad1e732b19e7ac3903f69d3f16a

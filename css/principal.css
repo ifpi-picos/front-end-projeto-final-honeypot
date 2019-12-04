@@ -21,6 +21,7 @@ li a{
     display: block;
     color: black;
     text-align: center;
+<<<<<<< HEAD
     padding: 14px 16px;
     text-decoration: none;
 }
@@ -30,3 +31,28 @@ li a:hover{
 nav{
     overflow: hidden;    
 }
+=======
+    padding: 10px 12px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color:#ffc107;
+}
+ul li{
+    border-left:1px solid #ffc107;
+}
+nav{
+    overflow: hidden;  
+    background:#FFDEAD;
+}
+
+/* NAV BAR*/
+hr{
+    width: auto;
+    margin: 0 auto;
+    border: 0;
+    height: 0;
+    border-top: 1px solid #ffc107;   
+    overflow: visible;
+}
+>>>>>>> a02014f01c8fcad1e732b19e7ac3903f69d3f16a
