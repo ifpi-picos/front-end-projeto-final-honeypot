@@ -42,33 +42,63 @@
                 <label for="">Data Cadastro da Colemia:</label>
                 <input type="date" name="" class="responsavel" placeholder="Data de cadastramento da Colmeia">
             </div>
+            <nav class="menu_top">
+                <ul>
+                    <li><a href="">Colmeias</a></li>
+                    <li><a href="">Coletas</a></li>
+                    <li><a href="">Funcionários</a></li>
+                    <li><a href="">Cadastro</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="informacoesabelhas">
-            <div class="posturaDosOvos">
-                <p>Postura dos Ovos:</p>
-                <form action="" method="post" name="ovos">
+
+    </header>
+
+    <main>
+        <div class="contanier">
+            <aside class="principal">
+                <h2>Cadastrar Colmeia</h2>
+                <form action="" method="post" class="cad_colmeia">
+                    <label for="fname">Endereço do Apiário</label>
+                    <input type="text" id="fname" name="firstname">
+
+                    <label for="fname">Responsavel pelo cadastro</label>
+                    <input type="text" id="fname" name="firstname">
+
+                    <!--<label for="country">Responsavel Pelo Cadastro</label>
+                    <select id="country" name="country">
+                        <option value="australia">Francisco José de Sousa</option>
+                        <option value="canada">Maria da Luz de Jesus Sá</option>
+                        <option value="usa">Lourival Antonio de Sá</option>
+                    </select>--->
+                    <label for="lname">Data de cadastro</label>
+                    <input type="date" id="lname" name="lastname">
+
+                    <h3>Postura dos Ovos</h3>
                     <p>
-                        <input type="checkbox" class="checkbox">
+                        <input type="checkbox" class="boa">
                         <label for="">Boa</label>
                     </p>
+
                     <p>
-                        <input type="checkbox" class="checkbox">
+                        <input type="checkbox" class="fraca">
                         <label for="">Fraca</label>
                     </p>
+
                     <p>
-                        <input type="checkbox" class="checkbox">
-                        <label for="">Irregular</label>
+                        <input type="checkbox" class="regular">
+                        <label for="">Regular</label>
                     </p>
+                    
                 </form>
 
-            </div>
-            <div class="abelhasRainhas">
-
-            </div>
-
+            </aside>
         </div>
 
-    </div>
+    </main>
+    <!-- menu-->
+
+    <!---Menu finalizado-->
 </body>
 
 </html>
