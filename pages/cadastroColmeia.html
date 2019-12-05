@@ -27,42 +27,29 @@
                 </ul>
             </nav>
         </div>
-
     </header>
+    <div class="info_cadastro">
+        <h3>Cadastro de Colmeias</h3>
+    </div>
 
-    <main>
-        <div class="contanier">
-            <aside class="principal">
-                <h2>Cadastrar Colmeia</h2>
-                <form action="" method="post" class="cad_colmeia">
-                    <label for="fname">Endereço do Apiário</label>
-                    <input type="text" id="fname" name="firstname">
-
-                    <label for="country">Responsavel Pelo Cadastro</label>
-                    <select id="country" name="country">
-                        <option value="australia">Francisco José de Sousa</option>
-                        <option value="canada">Maria da Luz de jesus Sá</option>
-                        <option value="usa">Lourival Antonio de Sá</option>
-                    </select>
-                    <label for="lname">Data de cadastro</label>
-                    <input type="date" id="lname" name="lastname">
-                    
-                    <h3>Postura dos Ovos</h3>
-                    <p>
-                            <input type="checkbox" name="boa">
-                            <label for="">Boa</label>
-                    </p>
-                  
-                    <input type="checkbox" name="boa">
-                    <label for="">Boa</label>
-                </form>
-            </aside>
+    <form action="" method="post" class="inputs_forms">
+        <div class="endereco">
+            <label for="endereco" class="formata">Endereço do Apiário </label>
+            <input type="text" id="endereco">
         </div>
 
-    </main>
-    <!-- menu-->
+        <div class="responsavel_data_time">
+            <label for="responsavel" class="formata">Responsavel pelo Apiario</label>
+            <input type="text" class="responsavel">
 
-    <!---Menu finalizado-->
+            <label for="data_tempo" class="formata"> Date/Time da Coleta</label>
+            <input type="datetime-local" class="data_tempo">
+        </div>
+
+
+
+        <!---  <button type="submit" id="cadstrar">Cadastrar</button>-->
+    </form>
 </body>
 
 </html>
