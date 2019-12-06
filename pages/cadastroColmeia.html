@@ -45,43 +45,58 @@
             <label for="data_tempo" class="formata"> Date/Time da Coleta</label>
             <input type="datetime-local" class="data_tempo">
         </div>
-        <div class="postura_presenca">
-            <div class="postura">
+
+        <div class="flex">
+            <div>
                 <p>Postura dos Ovos</p>
-                <input type="checkbox" name="" class="boa">
-                <label for="boa">Boa</label>
-
-                <input type="checkbox" name="" class="fraca">
-                <label for="">Franca</label>
-
-                <input type="checkbox" name="" class="irregular">
-                <label for="">Irregular</label>
+                <div class="options">
+                    <div class="item">
+                        <input type="checkbox" name="" class="boa">
+                        <label for="boa">Boa</label>
+                    </div>
+                    <div class="item">
+                        <input type="checkbox" name="" class="fraca">
+                        <label for="">Franca</label>
+                    </div>
+                    <div class="item">
+                        <input type="checkbox" name="" class="irregular">
+                        <label for="">Irregular</label>
+                    </div>
+                </div>  
+            </div>
+            
+            <div>
+                    <p>Florada</p>
+                    <div class="options">
+                        <div class="item">
+                            <input type="checkbox" name="" class="boa">
+                            <label for="boa">Fraca</label>
+                        </div>
+                        <div class="item"> 
+                            <input type="checkbox" name="" class="fraca">
+                            <label for="">Regular</label>
+                        </div>
+                        <div class="item"> 
+                            <input type="checkbox" name="" class="irregular">
+                            <label for="">Boa</label>
+                        </div>
+                    </div>
             </div>
 
-            <div class="florada">
-
-                <p>Florada</p>
-                <input type="checkbox" name="" class="boa">
-                <label for="boa">Boa</label>
-
-                <input type="checkbox" name="" class="fraca">
-                <label for="">Franca</label>
-
-                <input type="checkbox" name="" class="irregular">
-                <label for="">Boa</label>
-            </div>
-            <div class="presenca_abelhas">
-                    <p>Presença de Realeiras</p>
-                    <input type="checkbox" name="" class="ausente">
-                    <label for="boa">Ausente</label>
-    
-                    <input type="checkbox" name="" class="presente">
-                    <label for="">Presente</label>
-
-                    <input type="checkbox" name="" class="irregular">
-                    <label for="">Irregular</label>
+            <div>
+                <p>Presença de Realeiras</p>
+                <div class="options">
+                    <div class="item">
+                        <input type="checkbox" name="" class="ausente">
+                        <label for="boa">Ausente</label>
+                    </div>
+                    <div class="item">
+                        <input type="checkbox" name="" class="presente">
+                        <label for="">Presente</label>
+                    </div>
                 </div>
-        </div>
+            </div>
+            </div>
 
         <!---  <button type="submit" id="cadstrar">Cadastrar</button>-->
     </form>

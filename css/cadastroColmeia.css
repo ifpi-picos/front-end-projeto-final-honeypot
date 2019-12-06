@@ -108,47 +108,20 @@
     margin-top: 0.2em;
 }
 
- .postura_presenca{
+.flex{
     display: flex;
-    width: 100%;
-    margin-top: 2em;
+    justify-content: space-between;
     align-items: center;
-    justify-content:space-around;
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
-.postura_presenca .postura,.presenca_abelhas,.florada{
-    width: 30%;
-    padding: 5px;
-    align-items: stretch;
+.options{
     display: flex;
-    border: 1px solid #000000;
-    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 10px;
 }
-.postura_presenca label{
-    display: block;
-    position: relative;
-    margin-bottom: 12px;
-    cursor: pointer;
-}
-.postura_presenca input{
-    position: absolute;
-    height: 0;
-    width: 0;
-    left: 2%;
-}
-.postura_presenca input + label::before{
-    content: "\2714";
-    border: 1px solid #FFB300;
-    border-radius: 4px;
-    display: inline-block;
-    width:1em;
-    height: 1em;
-    padding-left:0.2em;
-    padding-bottom: 0.3em;
-    vertical-align:bottom;
-    color: transparent;
-}
-.postura_presenca input[type="checkbox"]:checked + label::before{
-  border-color: #FFB300;
+
+.item{
+    padding: 10px;
 }
