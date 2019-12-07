@@ -69,7 +69,7 @@
 .inputs_forms{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 80%;
     border-radius: 5px;
     margin: 1em auto 0 auto;
     padding: 20px;
@@ -86,7 +86,7 @@
     width: 80%;
     height: 2em;
     border-radius: 8px;
-    border: 1px solid #eeeeee;
+    border: 1px solid #ffc107;
     margin-top: 0.2em;
 
 }
@@ -102,7 +102,7 @@
     width: 30%;
     height: 2em;
     border-radius: 8px;
-    border: 1px solid #eeeeee;
+    border: 1px solid #ffc107;
     margin-top: 0.2em;
 }
 
@@ -112,32 +112,91 @@
     align-items: center;
     margin-top: 3em;
 }
+label.checkbox{
+	position: relative;
+	display: inline-block;
+	margin-right: 12px;
+	margin-bottom: 0;
+	padding-left: 6px;
+	font-weight: 400;
+}
 
+label.checkbox input::before {
+	content: '';
+	position: absolute;
+    left: 0;
+    top: 0;
+	z-index: 1;
+	display: block;
+	width: 18px;
+	height: 18px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	transition: all .2s ease-in-out;
+	visibility: visible;
+}
+label.checkbox input{
+	visibility: hidden;
+}
+
+label.checkbox input:checked::before{
+	content: '';
+	width: 1em;
+	height: 1em;
+	visibility: visible;
+}
+
+label.checkbox input:checked::after{
+	position: absolute;
+	z-index: 2;
+	display: block;
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	color: #000;
+	visibility: visible;
+}
+
+label.checkbox._warning input::before {
+	border-color: #f0ad4e;
+}
+
+label.checkbox._warning input:checked::before {
+	background-color: #f0ad4e;
+}
+label.checkbox input::before {
+	border-radius: 2px;
+}
+
+label.checkbox input:checked::before {
+	border-radius: 2px;
+}
+
+label.checkbox input:checked::after {
+	top: 2.5px;
+	left: 3.5px;
+	content: "\2714";
+}
+label.checkbox input{
+	cursor: pointer;
+}
+
+.checkbox _warning{
+    align-self: flex-start;
+}
 .options{
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between;
+    align-items: stretch;
     align-items: center;
     margin-top: 10px;
 }
 
 .item{
-    padding: 10px;
+    padding: 5px;
+    
 }
 
-.checkbox{
-    display: none;
-}
-.checkbox + label::before{
-    content: '';
-    display: inline-block;
-    width:1.1em;
-    height: 1em;
-    border: 1px solid #FFB300;
-    border-radius: 3px;
-    margin-right: 5px;
-    margin-bottom: -3px;
-    cursor: pointer;
-}
+
 .butao{
     margin-top: 3em;
     display: flex;
