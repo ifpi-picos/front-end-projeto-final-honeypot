@@ -23,6 +23,7 @@
 .logo{
     display:flex;
     width: 58%;
+    align-self: flex-end;
 }
 .img_logo{
     width: 3em;

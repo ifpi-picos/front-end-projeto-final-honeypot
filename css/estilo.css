@@ -2,12 +2,17 @@
     font-family: PTSans-Regular;
     font-size: 100%;
     box-sizing: border-box;
-}
-
-body{
     margin: 0;
     padding: 0;
+    font-weight: bold;
+    color: #606060;
+
 }
+
+/*body{
+    margin: 0;
+    padding: 0;
+}*/
 @font-face{
     font-family: PTSans-Regular;
     src: url(../fonts/PTSans-Regular.ttf);
@@ -112,9 +117,31 @@ form input{
 }
 
 
+/* Titulos das paginas*/
+.titulos h3{
+    text-align: center;
+    align-items: center;
+    margin-top: 2em;
+    font-size: 18pt;
+}
+/* Tables*/
 
+.contenier-center{
+   display: flex;
+   border: 1px solid #000;
+   justify-content: center;
+   width: 80%;
+   margin: 1em auto 0 auto;
+   padding: 20px;
 
-
+}
+.informacoes-cadastradas{
+    width: 90%;
+}
+tr,td,th,.informacoes-cadastradas{
+    border: 1px solid #eeeeee;
+    padding: 5px;
+}
 @media(max-width:745px){
     .honey-pot {
         flex-direction: column;
