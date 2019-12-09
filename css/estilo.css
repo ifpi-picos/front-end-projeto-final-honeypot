@@ -121,27 +121,10 @@ form input{
 .titulos h3{
     text-align: center;
     align-items: center;
-    margin-top: 2em;
+    margin-top: 1em;
     font-size: 18pt;
 }
-/* Tables*/
 
-.contenier-center{
-   display: flex;
-   border: 1px solid #000;
-   justify-content: center;
-   width: 80%;
-   margin: 1em auto 0 auto;
-   padding: 20px;
-
-}
-.informacoes-cadastradas{
-    width: 90%;
-}
-tr,td,th,.informacoes-cadastradas{
-    border: 1px solid #eeeeee;
-    padding: 5px;
-}
 @media(max-width:745px){
     .honey-pot {
         flex-direction: column;
