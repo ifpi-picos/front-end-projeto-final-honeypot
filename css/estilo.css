@@ -9,10 +9,6 @@
 
 }
 
-/*body{
-    margin: 0;
-    padding: 0;
-}*/
 @font-face{
     font-family: PTSans-Regular;
     src: url(../fonts/PTSans-Regular.ttf);
@@ -116,7 +112,6 @@ form input{
 
 }
 
-
 /* Titulos das paginas*/
 .titulos h3{
     text-align: center;
@@ -124,7 +119,69 @@ form input{
     margin-top: 1em;
     font-size: 18pt;
 }
+/* Tela Principal*/
+    .principal{
+        display: flex;
+        justify-content:space-around;
+        width: 95%;
+        margin: 1em auto 0 auto;
+        box-sizing: border-box;
+        margin-top: 3em;
+        border: 1px solid #000;
+    }
+    .informacoes_geral, .ultimas_colmeias_atualizadas, .ultimas_coletas{
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        margin-top: 1em;
+        height: 400px;
+        border: 1px solid #000;
+    }
 
+    .qtd_mel_produzido{
+        display: flex;
+        flex-direction:column;
+        margin-top: 2em;
+       
+    }
+    .qtd_litros{
+        width: 100%;
+    }
+    .qtd_litros p{
+        color: #000;
+        margin-top: 2em;
+        text-align: center;
+    }
+    .qtd_mel_produzido .litro{
+        text-align: center;
+        color: #795548;
+        font-size: 20pt;
+        font-style: initial;
+    }
+    .colmeias_coletas{
+        display: flex;
+        justify-content: space-between;
+        flex-direction:row;
+        margin-top: 5em;
+    }
+    .colmeias_cadastradas,.coletas_realizadas{
+        display: flex;
+        flex-direction: column;
+        width: 48%;
+        text-align: center;
+        margin-top: 1em;
+    }
+    .colmeias_cadastradas p,.coletas_realizadas p{
+        color: #000;
+    }
+    .colmeias,.coletas{
+        text-align: center;
+        color: #795548;
+        font-size: 20pt;
+        font-style: initial;
+       }
+
+/* Fim*/
 @media(max-width:745px){
     .honey-pot {
         flex-direction: column;
