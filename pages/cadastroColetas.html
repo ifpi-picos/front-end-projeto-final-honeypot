@@ -5,7 +5,11 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Cadastrar Coleta</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href="../css/cadastroColeta.css">
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="shortcut icon" href="../img/honeyPot.png" type="image/x-png">
     <script src='main.js'></script>
 </head>
 <body>
@@ -13,7 +17,7 @@
         <div class="contanier">
             <div class="logo">
                 <img src="../img/honeyPot.png" alt="logo" class="img_logo">
-                <h1 class="title">Honey Pot</h1>
+                <h3 class="info_cadastro">Honey Pot</h3>
             </div>
             <nav class="menu_top">
                 <ul>
@@ -26,38 +30,86 @@
         </div>
     </header>
 
+    
 
-    <div class="content">
+        <h3 class="info_cadastro"> Cadastro de Coletas </h3>
+            
+      
+        <form>
+            <div class="pai">
+                <div class="extracao"> 
+                    <label  class="formata">Seleção de Colmeias </label> 
+                    <select class="selecao_colmeia"> 
+                        <option value="1"> Colmeia 1</option>
+                        <option value="2"> Colmeia 2</option>
+                        <option value="3"> Colmeia 3</option>
+                        <option value="4"> Colmeia 4 </option>
+                    </select>
+                </div>
 
-        <di class="form"></di>
+                <div class="datacoleta">
+                    <label class="formata">Data de Extração</label> <br>
+                    <input type="date" class="data"/>
+                    
+                </div>
 
-            <h3 class="info_cadastro"> Cadastro de Coletas </h3>
+                <div class="responsavel1"> 
+                    <label class="formata">Responsável</label> <br>
+                    <input type="text" class="responsavel">
+                </div>
 
+                <dic class="qtd_extraida"> qtd_extraida</dic>
 
-            <div class="extracao"> extração</div>
-
-            <div class="data">data   </div>
-
-            <div class="responsavel"> responsavel
-
+                <div class="cor">cor </div>
+           
             </div>
-
-            <dic class="qtd_extraida"> qtd_extraida</dic>
-
-            <div class="cor">cor </div>
-
-  
-        </div>
-    </div>
-
-
-
-
-
-
-
-
+        
+        </form>
+        
 
     
 </body>
 </html>
+
+<style>
+.pai{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+
+
+.extracao{
+    width: 30%;
+
+  
+}
+
+.datacoleta{
+    width: 15%;
+    margin-left: 1rem;
+
+
+}
+
+.responsavel1{
+    width: 46%;
+    margin-left: 1rem;
+
+}
+
+.qtd_extraida{
+    width: 45%;
+    background-color: darkblue;
+}
+
+.cor{
+    width: 45%;
+    background-color: darkblue;
+}
+
+</style>
