@@ -30,11 +30,8 @@
         </div>
     </header>
 
-    
-
-        <h3 class="info_cadastro"> Cadastro de Coletas </h3>
+        <h3 class="textoinicial"> Cadastro de Coletas </h3>
             
-      
         <form>
             <div class="pai">
                 <div class="extracao"> 
@@ -47,21 +44,50 @@
                     </select>
                 </div>
 
-                <div class="datacoleta">
-                    <label class="formata">Data de Extração</label> <br>
-                    <input type="date" class="data"/>
-                    
-                </div>
-
                 <div class="responsavel1"> 
                     <label class="formata">Responsável</label> <br>
                     <input type="text" class="responsavel">
                 </div>
 
-                <dic class="qtd_extraida"> qtd_extraida</dic>
+                <div class="datacoleta">
+                        <label class="formata">Data de Extração</label> <br>
+                        <input type="date" class="data"/>  
+                </div>
 
-                <div class="cor">cor </div>
-           
+                <div class="qtd_extraida"> 
+                    <label class="formata">Quantidade Extraída</label> <br>
+                    <input type="number" class="responsavel">
+
+                </div>
+                <div class="cor">
+                    <label class="formata">Cor Aparente</label> <br>
+                    <input type="text" class="responsavel">
+                </div>
+            
+            </div>
+            
+         
+            <h3 class="textoinicial"> Produção </h3>
+            <p style="text-align: center;">Preencha a quantidade de potes produzidos em cada tamanho abaixo:</p><br>
+
+            <div class="pai">
+                
+                <div class="pot250">
+                    <label class="labelpot">Pote 250ml: </label> 
+                    <input type="number" class="pot"/>
+                </div>
+                <div class="pot500">
+                    <label class="labelpot">Pote 500ml: </label> 
+                    <input type="number" class="pot"/>
+                </div>
+                <div class="pot1l">
+                    <label class="labelpot">Garrafa 1L: </label> 
+                    <input type="number" class="pot"/>
+                </div>
+                <div class="tambor">
+                    <label class="labelpot">Tambor: </label> 
+                    <input type="number" class="pot"/>
+                </div>
             </div>
         
         </form>
@@ -72,44 +98,6 @@
 </html>
 
 <style>
-.pai{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: 2%;
-    margin-right: 2%;
-}
 
-
-
-.extracao{
-    width: 30%;
-
-  
-}
-
-.datacoleta{
-    width: 15%;
-    margin-left: 1rem;
-
-
-}
-
-.responsavel1{
-    width: 46%;
-    margin-left: 1rem;
-
-}
-
-.qtd_extraida{
-    width: 45%;
-    background-color: darkblue;
-}
-
-.cor{
-    width: 45%;
-    background-color: darkblue;
-}
 
 </style>
