@@ -31,13 +31,14 @@
     align-items: center;
     justify-content: space-between;
 }
-.responsavel_data_time .responsavel,.data,.end,.qtd-colmeias{
+.responsavel_data_time .responsavel,.data_cadastro,.end,.qtd-colmeias{
     width: 30%;
     height: 2em;
     border-radius: 8px;
     border: 1px solid #ffc107;
     margin-top: 0.2em;
 }
+
 .responsavel_endereco, .quantidade_colmeias_data_cadastro, .data_inspecao_extracao{
     display: flex;
     width: 100%;
