@@ -120,100 +120,145 @@ form input{
     font-size: 18pt;
 }
 /* Tela Principal*/
-    .principal{
-        display: flex;
-        justify-content:space-around;
-        width: 95%;
-        margin: 1em auto 0 auto;
-        box-sizing: border-box;
-        margin-top: 3em;
-    }
-    .informacoes_geral, .ultimas_colmeias_atualizadas, .ultimas_coletas_atualizadas{
-        display: flex;
-        width: 32.5%;
-        margin-top: 1em;
-        height: 450px;
+.principal{
+    display: flex;
+    justify-content:space-around;
+    width: 95%;
+    margin: 1em auto 0 auto;
+    box-sizing: border-box;
+    margin-top: 3em;
+}
+.informacoes_geral, .ultimas_colmeias_atualizadas, .ultimas_coletas_atualizadas{
+    display: flex;
+    width: 32.5%;
+    margin-top: 1em;
+    height: 450px;
+}
+
+.qtd_mel_produzido{
+    display: flex;
+    flex-direction:column;
+    margin-top: 2em;
+    
+}
+.qtd_litros{
+    width: 100%;
+}
+.qtd_litros p{
+    color: #000;
+    margin-top: 2em;
+    text-align: center;
+}
+.qtd_mel_produzido .litro{
+    text-align: center;
+    color: #795548;
+    font-size: 20pt;
+    font-style: initial;
+}
+.colmeias_coletas{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+    margin-top: 5em;
+}
+.colmeias_cadastradas,.coletas_realizadas{
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    text-align: center;
+    margin-top: 1em;
+}
+.colmeias_cadastradas p,.coletas_realizadas p{
+    color: #000;
+}
+.colmeias,.coletas{
+    text-align: center;
+    color: #795548;
+    font-size: 20pt;
+    font-style: initial;
     }
 
-    .qtd_mel_produzido{
-        display: flex;
-        flex-direction:column;
-        margin-top: 2em;
-       
-    }
-    .qtd_litros{
-        width: 100%;
-    }
-    .qtd_litros p{
-        color: #000;
-        margin-top: 2em;
-        text-align: center;
-    }
-    .qtd_mel_produzido .litro{
-        text-align: center;
-        color: #795548;
-        font-size: 20pt;
-        font-style: initial;
-    }
-    .colmeias_coletas{
-        display: flex;
-        justify-content: space-between;
-        flex-direction:row;
-        margin-top: 5em;
-    }
-    .colmeias_cadastradas,.coletas_realizadas{
-        display: flex;
-        flex-direction: column;
-        width: 48%;
-        text-align: center;
-        margin-top: 1em;
-    }
-    .colmeias_cadastradas p,.coletas_realizadas p{
-        color: #000;
-    }
-    .colmeias,.coletas{
-        text-align: center;
-        color: #795548;
-        font-size: 20pt;
-        font-style: initial;
-       }
+.ultimas_colmeias_atualizadas,.ultimas_coletas_atualizadas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ultimas_colmeias_atualizadas p, .ultimas_coletas_atualizadas p{
+    color: #000;
+    text-align: center;
+}
 
-       .ultimas_colmeias_atualizadas,.ultimas_coletas_atualizadas{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-       }
-       .ultimas_colmeias_atualizadas p, .ultimas_coletas_atualizadas p{
-            color: #000;
-            text-align: center;
-       }
+/* Butões Visualizar Mais Informações*/
 
-       /* Butões Visualizar Mais Informações*/
+.mais_informacoes{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
 
-       .mais_informacoes{
-           width: 100%;
-           display: flex;
-           justify-content: flex-end;
-       }
+.ver_mais_colmeias, .ver_mais_coletas{
+    margin-right:1.3em;
+    width: 40%;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    background:#fafafa !important;
+    border: 1px solid #ffc107;
+}
 
-       .ver_mais_colmeias, .ver_mais_coletas{
-           margin-right:1.3em;
-           width: 40%;
-           height: 40px;
-           cursor: pointer;
-           border-radius: 5px;
-           background:#fafafa !important;
-           border: 1px solid #ffc107;
-       }
-
-       .ver_mais_colmeias:hover{
-           color: #ff9900;
-       }
-       .ver_mais_coletas:hover{
-        color: #ff9900;
-    }
+.ver_mais_colmeias:hover{
+    color: #ff9900;
+}
+.ver_mais_coletas:hover{
+color: #ff9900;
+}
 
 /* Fim*/
+
+/*Cadastro Apicultores*/
+.cadastroApicultor{
+    width: 80%;
+    flex-direction: column;
+    display: flex;
+    margin: 1em auto 0 auto;
+}
+
+.honey_pot{
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1em auto 0 auto;
+}
+
+.img_pot{
+    width: 20%;
+    height: 100%;
+}
+
+.cadastrar_apicultores{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 4em;
+    margin: 1em auto 0 auto;
+}
+.cad_apicultor{
+    margin-left:1.3em;
+    width: 30%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    background:#fafafa !important;
+    border: 1px solid #ffc107;
+}
+.cad_apicultor:hover{
+    color: #ff9900;
+}
+/*Fim do Cadastro*/
+
+/*midia Queires*/
+
 @media(max-width:745px){
     .honey-pot {
         flex-direction: column;
