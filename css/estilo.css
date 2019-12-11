@@ -221,7 +221,6 @@ color: #ff9900;
     flex-direction: column;
     display: flex;
     margin: 1em auto 0 auto;
-    border: 1px solid #000;
 }
 
 .honey_pot{
@@ -230,14 +229,36 @@ color: #ff9900;
     justify-content: space-around;
     align-items: center;
     margin: 1em auto 0 auto;
-    border: 1px solid #000;
 }
 
 .img_pot{
     width: 20%;
     height: 100%;
 }
+
+.cadastrar_apicultores{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin-right: 4em;
+    margin: 1em auto 0 auto;
+}
+.cad_apicultor{
+    margin-left:1.3em;
+    width: 30%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 5px;
+    background:#fafafa !important;
+    border: 1px solid #ffc107;
+}
+.cad_apicultor:hover{
+    color: #ff9900;
+}
 /*Fim do Cadastro*/
+
+/*midia Queires*/
+
 @media(max-width:745px){
     .honey-pot {
         flex-direction: column;

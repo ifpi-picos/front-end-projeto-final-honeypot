@@ -1,6 +1,6 @@
 
  /* Formularios*/
- .info_cadastro{
+ .info_cadastro h3{
     width: 100%;
     text-align: center;
     margin-top: 1em;
@@ -47,7 +47,7 @@
     justify-content: space-between;
 }
 .endereco, .responsavel,.quantidade_colmeias, .data_cadastro,.data_inspecao, .data_extracao{
-    width: 100%;
+    width: 30%;
     height: 2em;
     border-radius: 8px;
     border: 1px solid #ffc107;
@@ -256,7 +256,6 @@
     flex-direction: column;
     margin: 1em auto 0 auto;
     align-items: flex-end;
-    border: 1px solid #000000;
 }
 .info_nome, .info_cidade, .info_endereco, .info_cpf, .info_apiario, .info_password{
     width: 100%;
@@ -270,6 +269,13 @@
     height: 3em;
     border-radius: 8px;
     border: 1px solid #ffc107;
-    margin-top: 0.5em;
+    margin-top: 0.3em;
     color: #606060;
+}
+
+@media(max-width:745px){
+    .info_apicultor{
+        width: 100%;
+        justify-content: space-between;
+    }
 }
