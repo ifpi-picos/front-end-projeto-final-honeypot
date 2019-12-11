@@ -8,12 +8,12 @@
 .logo .title{
     font-family:Dancing;
     font-size: 24pt;
-     margin: 0;
+    margin: 0;
     padding:5px;
 }
 .logo{
     display:flex;
-    width: 58%;
+    width: 50%;
     justify-content: flex-start;/*alinha os elementos filhos no inicio*/
 }
 .img_logo{
@@ -36,7 +36,7 @@
 }
 .menu_top ul li{
     list-style: none;
-    padding: 20px 30px;
+    padding: 0px 20px;
     display: inline-block;
     border-radius: 4px;
 }
@@ -47,3 +47,52 @@
     color:#FFB300;
 }
 /* Menu Finalizado*/
+
+.voltarprincipal{
+    display: flex;
+    text-decoration: none;
+}
+
+
+  /* */
+.cadastrar-btn   {
+    color: #606060;
+    padding: 0px 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.cadastrar-btn:hover{
+    text-decoration-color: #FFB300;
+}
+
+.dropdown-cadastro {
+    position: relative;
+    display: inline-block;
+}
+
+.cadastrar-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.cadastrar-content a {
+    background-color: white;
+    color: #606060;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-cadastro:hover .cadastrar-content {
+    display: block;
+}
+
+.dropdown-cadastro:hover {
+    background: none;
+}
