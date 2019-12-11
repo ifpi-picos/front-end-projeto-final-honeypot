@@ -248,3 +248,28 @@
     margin-right: 0.2em;
     
 }
+
+/* Cadastro Apicultor*/
+.info_apicultor{
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    margin: 1em auto 0 auto;
+    align-items: flex-end;
+    border: 1px solid #000000;
+}
+.info_nome, .info_cidade, .info_endereco, .info_cpf, .info_apiario, .info_password{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.nome_apicultor, .cidade_apicultor, .endereco_apicultor, .cpf_apicultor, .qtd_apiario,.password{
+    width:80%;
+    height: 3em;
+    border-radius: 8px;
+    border: 1px solid #ffc107;
+    margin-top: 0.5em;
+    color: #606060;
+}
