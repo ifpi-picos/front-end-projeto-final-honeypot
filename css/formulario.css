@@ -252,9 +252,3 @@ extracao_responsavel, .producao , .quantidade_de_mel,password_funcionario .infor
 }
 
 
-@media(max-width:745px){
-    .info_apicultor{
-        width: 100%;
-        justify-content: space-between;
-    }
-}
