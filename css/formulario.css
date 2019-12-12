@@ -210,11 +210,9 @@ extracao_responsavel, .producao , .quantidade_de_mel,password_funcionario .infor
 
 .cancelar_coleta, .cadastrar_coleta, .cad-funcionario{
     width: 20%;
-    background: #FFB300;
     height: 3em;
     border-radius: 8px;
-    border: 1px solid #ffc107;
-    background:#fafafa !important;
+    border: 1px solid #FFB300;
 }
 .cancelar_coleta{
     background:#fa8100;

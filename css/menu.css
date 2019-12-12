@@ -96,3 +96,9 @@
 .dropdown-cadastro:hover {
     background: none;
 }
+
+@media(max-width:745px){
+    .contanier{
+       flex-wrap: wrap;
+    }
+}
