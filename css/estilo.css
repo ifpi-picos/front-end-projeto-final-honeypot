@@ -113,7 +113,7 @@ form input{
 }
 
 /* Titulos das paginas*/
-.titulos h3{
+.titulos h3 , .textoinicial{
     text-align: center;
     align-items: center;
     margin-top: 1em;

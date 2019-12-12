@@ -45,74 +45,49 @@
     </header>
 
     <h3 class="textoinicial"> Cadastro de Coletas </h3>
-
     <form method="POST" class="inputs_coletas">
-        <div class="pai">
-            <div class="extracao">
-                <label class="formata">Seleção de Colmeias </label>
-                <select class="selecao_colmeia">
-                    <option value="1"> Colmeia 1</option>
-                    <option value="2"> Colmeia 2</option>
-                    <option value="3"> Colmeia 3</option>
-                    <option value="4"> Colmeia 4 </option>
-                </select>
-            </div>
+        <div class="extracao_responsavel">
+            <label for="endereco" class="formata">Selecione uma Colmeia </label>
+            <select class="selecao_colmeia">
+                <option value="2"> Colmeia 1</option>
+                <option value="3"> Colmeia 2</option>
+                <option value="4"> Colmeia 3 </option>
+            </select>
+            <label class="formata">Responsável Pela Coleta</label> <br>
+            <input type="text" class="responsavel">
+        </div>
+        <div class="producao">
+            <label class="formata">Data de Extração</label> <br>
+            <input type="date" class="date_extract" />
 
-            <div class="responsavel1">
-                <label class="formata">Responsável</label> <br>
-                <input type="text" class="responsavel">
-            </div>
+            <label class="formata">Quantidade Extraída</label> <br>
+            <input type="number" class="quantidade_extraida">
 
-            <div class="datacoleta">
-                <label class="formata">Data de Extração</label> <br>
-                <input type="date" class="data" />
-            </div>
-
-            <div class="qtd_extraida">
-                <label class="formata">Quantidade Extraída</label> <br>
-                <input type="number" class="responsavel">
-
-            </div>
-            <div class="cor">
-                <label class="formata">Cor Aparente</label> <br>
-                <input type="text" class="responsavel">
-            </div>
+            <label class="formata">Cor Aparente</label> <br>
+            <input type="text" class="cor_aparente">
 
         </div>
-
-
-        <h3 class="textoinicial"> Produção </h3>
-        <p style="text-align: center;">Preencha a quantidade de potes produzidos em cada tamanho abaixo:</p><br>
-
-        <div class="pai">
-
-            <div class="pot250">
-                <label class="labelpot">Pote 250ml: </label>
-                <input type="number" class="pot" />
-            </div>
-            <div class="pot500">
-                <label class="labelpot">Pote 500ml: </label>
-                <input type="number" class="pot" />
-            </div>
-            <div class="pot1l">
-                <label class="labelpot">Garrafa 1L: </label>
-                <input type="number" class="pot" />
-            </div>
-            <div class="tambor">
-                <label class="labelpot">Tambor: </label>
-                <input type="number" class="pot" />
-            </div>
+        <div class="informacoes_producao">
+            <p>Preencha a quantidade de potes produzidos em cada tamanho abaixo:</p><br>
         </div>
+        <div class="quantidade_de_mel">
+            <label class="labelpot">Pote 250ml: </label>
+            <input type="number" class="pot" />
 
+            <label class="labelpot">Pote 500ml: </label>
+            <input type="number" class="pot" />
+
+            <label class="labelpot">Garrafa 1L: </label>
+            <input type="number" class="pot" />
+
+            <label class="labelpot">Tambor: </label>
+            <input type="number" class="pot" />
+        </div>
+        <div class="buttons_cadastar-cancelar">
+            <button type="submit" class="cancelar_coleta"> <a href="cadastroColetas.html" class="link">Cancelar</a></button>
+            <button type="submit" class="cadastrar_coleta"><a href="listaDeColetas.html" class="link">Cadastrar Coleta</a></button>
+        </div>
     </form>
-
-
-
 </body>
 
 </html>
-
-<style>
-
-
-</style>
