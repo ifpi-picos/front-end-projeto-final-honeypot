@@ -176,14 +176,25 @@
 }
 /* COISAS DO CADASTRO DE COLETA */
 
+.inputs_coletas{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    border-radius: 5px;
+    margin: 1em auto 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 1px solid #000;
+}
+
 .pai{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 80%;
-    margin-left: 9%;
-    margin-right: 9%;
+    margin:  1em auto 0 auto;
+    border: 1px solid #000;
 }
 .textoinicial{
     text-align: center;
