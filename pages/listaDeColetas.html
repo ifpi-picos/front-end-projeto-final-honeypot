@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lista de Coletas </title>
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="stylesheet" href="../css/menu.css">
     <link rel="stylesheet" href="../css/tables.css">
@@ -16,19 +17,31 @@
     <header class="menu">
         <div class="contanier">
             <div class="logo">
+                <a href="principal.html" class="voltarprincipal">
                 <img src="../img/honeyPot.png" alt="logo" class="img_logo">
-                <h1 class="title">Honey Pot</h1>
+                <h1 class="title"> Honey Pot</h1></a>
             </div>
             <nav class="menu_top">
                 <ul>
-                    <li><a href="">Colmeias</a></li>
-                    <li><a href="">Coletas</a></li>
-                    <li><a href="">Funcionários</a></li>
-                    <li><a href="">Cadastro</a></li>
+                    <li><a href="listaDeApiarios.html">Apiários</a></li>
+                    <li><a href="listaDeColetas.html">Coletas</a></li>
+                    <li><a href="listaDeFuncionarios.html">Funcionários</a></li>
+                    <li>
+                        <div class="dropdown-cadastro">
+                            <button class="cadastrar-btn">Cadastrar</button>
+                            <div class="cadastrar-content">
+                            <a href="cadastroApiario.html">Cadastrar Apiário</a>
+                            <a href="cadastroColetas.html">Cadastrar Coleta</a>
+                            </div>
+                        </div>
+                                    
+                    </li>
+                    <li><a href="../index.html"> Sair</a> </li>
                 </ul>
             </nav>
         </div>
-    </header>
+    </header>   
+
     <div class="titulos">
         <h3>Coletas Cadastradas </h3>
     </div>

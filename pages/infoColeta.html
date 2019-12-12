@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Informações - Coleta</title>
+    <link rel="stylesheet" href="../css/estilo.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="shortcut icon" href="../img/honeyPot.png" type="image/x-png">
+</head>
+
+<body>
+    <header class="menu">
+        <div class="contanier">
+            <div class="logo">
+                <a href="principal.html" class="voltarprincipal">
+                <img src="../img/honeyPot.png" alt="logo" class="img_logo">
+                <h1 class="title"> Honey Pot</h1></a>
+            </div>
+            <nav class="menu_top">
+                <ul>
+                    <li><a href="listaDeApiarios.html">Apiários</a></li>
+                    <li><a href="listaDeColetas.html">Coletas</a></li>
+                    <li><a href="listaDeFuncionarios.html">Funcionários</a></li>
+                    <li>
+                        <div class="dropdown-cadastro">
+                            <button class="cadastrar-btn">Dropdown</button>
+                            <div class="cadastrar-content">
+                            <a href="cadastroApiario.html">Cadastrar Apiário</a>
+                            <a href="cadastroColetas.html">Cadastrar Coleta</a>
+                            </div>
+                        </div>
+                                    
+                    </li>
+                    <li><a href="../index.html"> Sair</a> </li>
+                </ul>
+            </nav>
+        </div>
+    </header>    
+    
+    <div class="info_cadastro">
+        <h3>Informações sobre as Coletas</h3>
+    </div>
+
+    <form action="" method="post" class="inputs_forms">
+        <div class="responsavel_endereco">
+            <label for="responsavel" class="formata">Endereço atual do Apiário</label>
+            <input type="text" class="endereco">
+
+            <label for="data_tempo" class="formata">Responsavel pelo Cadastro</label>
+            <input type="text" class="responsavel">
+        </div>
+        <div class="quantidade_colmeias_data_cadastro">
+            <label for="responsavel" class="formata">Quantidade de Colmeias</label>
+            <input type="number" class="quantidade_colmeias">
+
+            <label for="data_tempo" class="formata"> Data de Cadastro</label>
+            <input type="date" class="data_cadastro">
+        </div>
+
+        <div class="data_inspecao_extracao">
+            <label for="responsavel" class="formata">Data da última Inspeção</label>
+            <input type="date" class="data_inspecao">
+
+            <label for="data_tempo" class="formata">Data da Extração </label>
+            <input type="date" class="data_extracao">
+        </div>
+
+
+        <div class="butao">
+            <button type="submit" class="autualizar_informacoes">Atualizar Informações</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
