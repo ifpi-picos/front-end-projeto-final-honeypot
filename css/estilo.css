@@ -216,7 +216,7 @@ color: #ff9900;
 /* Fim*/
 
 /*Cadastro Apicultores*/
-.cadastroApicultor{
+.cadastroApicultor ,.cadastroFuncionario{
     width: 80%;
     flex-direction: column;
     display: flex;
