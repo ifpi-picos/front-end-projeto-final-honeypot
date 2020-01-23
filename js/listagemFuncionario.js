@@ -11,7 +11,6 @@ async function consultarFuncionarios() {
       const html = 
       `  
       <tr>
-      <td>${funcionario._id}</td>
       <td> ${funcionario.nome} </td>
       <td>${funcionario.funcao}</td>
       <td>${funcionario.email}</td>
