@@ -50,54 +50,54 @@
     <form action="" method="post" class="inputs_forms">
         <div class="endereco_qtd-colmeias">
             <label for="endereco" class="formata">Endereço do atual Apiário </label>
-            <input type="text" class="end">
+            <input type="text" class="end" >
             <label for="endereco" class="formata">Quantidade de Colmeias</label>
-            <input type="number" class="qtd-colmeias">
+            <input type="number" class="qtd-colmeias" >
         </div>
 
         <div class="responsavel_data_time">
             <label for="responsavel" class="formata">Responsavel pelo Apiario</label>
-            <input type="text" class="responsavel">
+            <input type="text" class="responsavel" >
 
             <label for="data_tempo" class="formata"> Data de Cadastro</label>
             <input type="date" class="data_cadastro">
         </div>
-
+        
         <div class="flex">
             <div>
                 <p>Postura dos Ovos</p>
                 <div class="options">
                     <div class="item">
                         <label class="container">Boa
-                            <input type="checkbox" checked="checked">
+                            <input type="checkbox" id="ovos_boa">
                             <span class="checkmark"></span>
                         </label>
                         <label class="container">Fraca
-                            <input type="checkbox" checked="checked">
+                            <input type="checkbox" id="ovos fraco">
                             <span class="checkmark"></span>
                         </label>
                         <label class="container">Irregular
-                            <input type="checkbox" checked="checked">
+                            <input type="checkbox" id="ovos_irregular">
                             <span class="checkmark"></span>
                         </label>
                     </div>
                 </div>
             </div>
-
+            
             <div>
                 <p>Florada</p>
                 <div class="options">
                     <div class="item">
                         <label class="container">Boa
-                            <input type="checkbox" checked="checked">
+                            <input type="checkbox" id="florada_boa">
                             <span class="checkmark"></span>
                         </label>
                         <label class="container">Fraca
-                            <input type="checkbox" checked="checked">
+                            <input type="checkbox" id="florada_fraca">
                             <span class="checkmark"></span>
                         </label>
                         <label class="container">Irregular
-                            <input type="checkbox" checked="checked">
+                            <input type="checkbox" id="florada_irregular">
                             <span class="checkmark"></span>
                         </label>
                     </div>
@@ -110,24 +110,25 @@
                 <div class="options">
                     <div class="item">
                         <label class="container">Ausente
-                            <input type="checkbox" checked="checked">
+                            <input type="checkbox" id="realeiras_ausente">
                             <span class="checkmark"></span>
                         </label>
                         <label class="container">Presente
-                            <input type="checkbox" checked="checked">
+                            <input type="checkbox" id="realeiras_presente">
                             <span class="checkmark"></span>
                         </label>
                     </div>
 
                 </div>
-            </div>
+            </div> 
         </div>
         <div class="butao">
-            <button type="submit" class="cadastrar-colmeia"><a href="listaDeApiarios.html" class="link"> Cadastrar
-                    Apiário</a></button>
+            <button type="button" class="cadastrar-colmeia" id="cadastrar-apiario" > Cadastrar Apiário</button>
         </div>
 
     </form>
+    
+    <script src="../js/cadastroApiario.js"></script>
 </body>
 
 </html>
