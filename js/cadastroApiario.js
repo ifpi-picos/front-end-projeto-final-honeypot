@@ -25,11 +25,11 @@ function Florada(){
 }
 
 function Realeiras(){
-    if(document.getElementById('realeiras_ausente').checked = true){
-        return "Ausente";
-    }
     if(document.getElementById('realeiras_presente').checked = true){
         return "Presente";
+    }
+    if(document.getElementById('realeiras_ausente').checked = true){
+        return "Ausente";
     }
    
 }
