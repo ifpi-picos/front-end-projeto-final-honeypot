@@ -1,13 +1,15 @@
 const btn_salvar = document.querySelector('.cadastrar');
-
+function redirecionarCadastro(){
+    document.location.assign("./pages/cadastrarFuncionario.html")
+}
 // pegando os valores do formulario de cadastro de funcionarios
 function setFormularioFuncionario() {
     const funcionario = {};
-    funcionario.nome = document.querySelector('.nome_func').value;
-    funcionario.username = document.querySelector('.username').value;
-    funcionario.funcao = document.querySelector('.funcao').value;
-    funcionario.email = document.querySelector('.email').value;
-    funcionario.senha = document.querySelector('.pass_func').value;
+    funcionario.nome = document.getElementsByClassName('.nome_func').value;
+    funcionario.username = document.getElementsByClassName('.username').value;
+    funcionario.funcao = document.getElementsByClassName('.funcao').value;
+    funcionario.email = document.getElementsByClassName('.email').value;
+    funcionario.senha = document.getElementsByClassName('.pass_func').value;
 
     const url = 'http://localhost:3000/funcionario'
 
