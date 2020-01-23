@@ -18,20 +18,20 @@ function setFormularioFuncionario() {
             'Content-Type': 'application/json'
         }
     }
-    fetch(url,option)
+    fetch(url, option)
         .then((res) => {
             console.log(res);
         })
         .catch((err) => {
             console.log(err);
-        }) 
-    console.log('dada');
+        })
+
 }
 
 function enviarDados(funcionario) {
-    
+
 }
 btn_salvar.addEventListener('click', () => {
     setFormularioFuncionario();
-    
+
 })
