@@ -1,34 +1,30 @@
 const btn_salvar = document.querySelector('.cadastrar-colmeia');
 
 function Ovos(){
-    if(document.getElementById('ovos_boa').checked = true){
+
+    if(document.getElementById('ovos_boa').checked === true){
         return "Boa";
-    }
-    if(document.getElementById('ovos_fraca').checked = true){
+    }else if(document.getElementById('ovos_fraca').checked === true){
         return "Fraca";
-    }
-    if(document.getElementById('ovos_irregular').checked=true){
+    } else if(document.getElementById('ovos_irregular').checked===true){
         return "Irregular";
     }
 }
 
 function Florada(){
-    if(document.getElementById('florada_boa').checked = true){
+    if(document.getElementById('florada_boa').checked === true){
         return "Boa";
-    }
-    if(document.getElementById('florada_fraca').checked = true){
+    } else if(document.getElementById('florada_fraca').checked === true){
         return "Fraca";
-    }
-    if(document.getElementById('florada_irregular').checked=true){
+    }else if(document.getElementById('florada_irregular').checked===true){
         return "Irregular";
     }
 }
 
 function Realeiras(){
-    if(document.getElementById('realeiras_presente').checked = true){
+    if(document.getElementById('realeiras_presente').checked === true){
         return "Presente";
-    }
-    if(document.getElementById('realeiras_ausente').checked = true){
+    } else if(document.getElementById('realeiras_ausente').checked === true){
         return "Ausente";
     }
    
@@ -43,6 +39,7 @@ function setFormularioApiario(){
     apiario.ovos = Ovos();
     apiario.florada = Florada();
     apiario.realeiras = Realeiras();
+    console.log(apiario)
 
     const url = 'http://localhost:3000/apiario'
 
