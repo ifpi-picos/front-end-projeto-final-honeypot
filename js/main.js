@@ -2,6 +2,10 @@ const btn_salvar = document.querySelector('.cadastrar');
 function redirecionarCadastro(){
     document.location.assign("./pages/cadastrarFuncionario.html")
 }
+
+function redirecionarPrincipal(){
+    document.location.assign("./pages/principal.html")
+}
 // pegando os valores do formulario de cadastro de funcionarios
 function setFormularioFuncionario() {
     const funcionario = {};
